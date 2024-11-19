@@ -11,7 +11,7 @@
 .nav-item .nav-link:hover {
   color: red;
   font-weight: bold;
-  font-size: 15px;
+
   text-decoration: none;
 }
 .fourcolumns p {
@@ -23,7 +23,7 @@
   font-size: x-large;
 }
 .navbar-brand {
-  height: 70px;
+  height: 85px;
 }
 
 .small-img img {
@@ -64,6 +64,12 @@
     width: 300px; /* Full width on smaller screens */
   }
 }
+@media (max-width: 992px) {
+  .vr {
+    display: none;
+  }
+}
+
 /* 
  */
 .wrapper {
@@ -185,6 +191,14 @@
   font-size: 1.31rem;
 }
 
+.fa-phone:before {
+  margin-right: 6px;
+}
+
+.fa-envelope:before {
+  margin-right: 6px;
+}
+
 @media screen and (max-width: 900px) {
   .wrapper .class .carousell {
     grid-auto-columns: calc((100% / 2) - 9px);
@@ -205,9 +219,14 @@
   background-color: gray;
 }
 .offcanvas-body li a {
-  font-size: 15px;
-
+  font-size: 17px;
+  font-weight: 700;
+  font-style: normal;
+  color: rgb(51, 51, 51);
   margin-top: 15px;
+  line-height: 21px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 .t {
   margin-left: 20px;
@@ -217,5 +236,4 @@
   width: 44px;
   height: 40px;
   margin-right: 5px;
-  font-size: 19px;
 }
